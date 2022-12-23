@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Arclet</string>
+    <string name="welcome_to_arclet">Welcome to Arclet</string>
+    <string name="arclet">Arclet</string>
+    <string name="get_started">Get Started</string>
+    <string name="connecting_you_to_ethereum_and_more_decentralized_chains_and_the_decentralized_web_we_re_happy_to_see_you">Connecting you to Ethereum and the Decentralized Web. We’re happy to see you.</string>
+    <string name="arclet_would_like_to_gather_usage_data_to_better_understand_how_our_users_interact_with_the_extension_this_data_will_be_used_to_continually_improve_the_usability_and_user_experience_of_our_product_and_the_ethereum_ecosystem">Arclet would like to gather usage data to better understand how our users interact with the extension. This data will be used to continually improve the usability and user experience of our product and the Ethereum ecosystem.</string>
+    <string name="import_your_account">Import Your Account</string>
+    <string name="enter_your_secret_recovery_phrase">Enter Your Secret Recovery Phrase</string>
+    <string name="importacc">Import</string>
+    <string name="connecting">connecting</string>
+    <string name="arc_network">*Arc Network</string>
+    <string name="_512">512</string>
+    <string name="send">Send</string>
+    <string name="enter_recipient_address">Enter Recipient address</string>
+    <string name="transfer_amount">Transfer Amount</string>
+    <string name="enter_passsword_for_new_wallet">Enter passsword for new wallet</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="an_ethereum_community">An Ethereum Community</string>
+    <string name="enter_ether_amount">Enter ether amount</string>
+    <string name="create_a_new_wallet_here">Create a New Wallet Here</string>
+    <string name="a_unit_of_earcengine">a unit of earcengine</string>
+</resources>

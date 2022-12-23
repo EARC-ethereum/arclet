@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page_4">
+
+    <ImageView
+        android:id="@+id/connect"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/main_logo_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+    <TextView
+        android:id="@+id/con"
+        android:layout_width="157dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/seguibl"
+        android:letterSpacing="0.025"
+        android:text="@string/arc_network"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/entersk"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/rectangle"
+        android:elevation="8sp"
+        android:gravity="center"
+        android:hint="@string/enter_your_secret_recovery_phrase"
+        android:inputType="textMultiLine"
+        android:padding="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connect"
+        tools:ignore="Autofill,LabelFor,MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/arc_lou"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entersk"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/resource_import"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mnemonic"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/seguisb"
+            android:text="@string/import_your_account"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/prev3"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="780dp"
+        android:src="@drawable/prev"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints,PxUsage,RtlHardcoded" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
